@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <script  src="https://kit.fontawesome.com/96e60b07bc.js" crossorigin="anonymous"></script>
+    <title>Navbar</title>
+  </head>
+  <body>
+      <nav>
+        <a class="logo" href="/">Combo</a>
+	    	<div class="search-box">
+            <input class="search-textbox" type="text" name="" placeholder="Faça sua Busca...">
+            <a class="search-button" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+        <ul class="nav-list">
+          <li><a href="">Início</a></li>
+          <li>
+            <div ngbDropdown class="d-inline-block">
+              <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Categorias</button>
+              <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                <button ngbDropdownItem>Teste-1</button>
+                <button ngbDropdownItem>Teste-2</button>
+                <button ngbDropdownItem>Teste-3</button>
+                <button ngbDropdownItem>Teste-4</button>
+                <button ngbDropdownItem>Teste-5</button>
+                <button ngbDropdownItem>Teste-6</button>
+                <button ngbDropdownItem>Teste-7</button>
+                <button ngbDropdownItem>Teste-8</button>
+                <button ngbDropdownItem>Teste-9</button>
+              </div>
+            </div>
+          </li>
+          <li><a href="#">Promoções</a></li>
+          <li><a (click)="sac()"><div class="sac">Atendimento(SAC)</div></a></li>
+        </ul>
+
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+
+    <a class="carrinho" href="#">
+      <i class="fa-solid fa-cart-shopping"> Carrinho</i>
+    </a>
+
+		<a class="User">
+			<i class="fa-regular fa-circle-user"(click)="login()"> <div class="button">Entrar/Logar</div></i>
+		</a>
+      </nav>
+  </body>
+</html>
+

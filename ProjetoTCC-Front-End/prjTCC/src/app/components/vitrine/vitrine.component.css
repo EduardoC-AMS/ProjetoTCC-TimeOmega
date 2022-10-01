@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+   flex-wrap: wrap;
+   width: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh;
+}
+
+main {
+    background: #ecedea;
+    font-size: 20px;
+    padding: 1rem;
+}
+main > header {
+    color: #d84c72;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800;
+}
+
+.texto{
+    position: relative;
+    margin-bottom: 33%;
+    border: solid 2px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    right: 100px;
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #2196f3;
+    transform: skew(345deg);
+    transition: 0.5s;
+}
+
+.card:hover::before {
+    transform: skewY(390deg);
+    top: -70%;
+}
+
+.card::after {
+    content: 'FONE';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 7.9em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgBx {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card .imgBx img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.card:hover .imgBx img {
+    max-width: 50%;
+}
+
+.card .contentBx {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card .contentBx h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card .contentBx .price {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card .contentBx .buy {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #2196f3;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card:hover .contentBx .buy {
+    top: 0px;
+    opacity: 1;
+}
+
+.card1 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    right: 75px;
+}
+
+.card1:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #2196f3;
+    transform: skew(345deg);
+    transition: 0.5s;
+}
+
+.card1:hover::before {
+    transform: skewY(390deg);
+    top: -70%;
+}
+
+.card1::after {
+    content: 'FONE';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 7.9em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card1 .imgBx1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card1 .imgBx1 img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.card1:hover .imgBx1 img {
+    max-width: 50%;
+}
+
+.card1 .contentBx1 {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card1 .contentBx1 h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card1 .contentBx1 .price {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card1 .contentBx1 .buy {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #2196f3;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card1:hover .contentBx1 .buy {
+    top: 0px;
+    opacity: 1;
+}
+
+.card2 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    right: 50px;
+}
+
+.card2:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #2196f3;
+    transform: skew(345deg);
+    transition: 0.5s;
+}
+
+.card2:hover::before {
+    transform: skewY(390deg);
+    top: -70%;
+}
+
+.card2::after {
+    content: 'FONE';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 7.9em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card2 .imgBx2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card2 .imgBx2 img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.card2:hover .imgBx2 img {
+    max-width: 50%;
+}
+
+.card2 .contentBx2 {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card2 .contentBx2 h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card2 .contentBx2 .price {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card2 .contentBx2 .buy {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #2196f3;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card2:hover .contentBx2 .buy {
+    top: 0px;
+    opacity: 1;
+}
+
+.card3 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    background: #122936;
+    border-radius: 20px;
+    overflow: hidden;
+    right: 25px;
+}
+
+.card3:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #2196f3;
+    transform: skew(345deg);
+    transition: 0.5s;
+}
+
+.card3:hover::before {
+    transform: skewY(390deg);
+    top: -70%;
+}
+
+.card3::after {
+    content: 'FONE';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 7.9em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card3 .imgBx3 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card3 .imgBx3 img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.card3:hover .imgBx3 img {
+    max-width: 50%;
+}
+
+.card3 .contentBx3 {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card3 .contentBx3 h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card3 .contentBx3 .price {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card3 .contentBx3 .buy {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #fff;
+    text-decoration: none;
+    background: #2196f3;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card3:hover .contentBx3 .buy {
+    top: 0px;
+    opacity: 1;
+}
