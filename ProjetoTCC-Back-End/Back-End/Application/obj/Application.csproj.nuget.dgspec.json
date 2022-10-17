@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj": {}
+    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj": {}
   },
   "projects": {
-    "E:\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj": {
+    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
+        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Application\\obj\\",
+        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
               },
-              "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
               },
-              "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
+        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -151,14 +151,14 @@
         }
       }
     },
-    "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
+    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
+        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
         "projectName": "InfraData",
-        "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
+        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\obj\\",
+        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -173,8 +173,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
               }
             }
           }
@@ -237,14 +237,14 @@
         }
       }
     },
-    "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
+    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
+        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
+        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\obj\\",
+        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -259,11 +259,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
               },
-              "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
-                "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
+              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
+                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
               }
             }
           }

@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 footer {
     background-color: #000000;
@@ -46,11 +41,11 @@ footer {
     font-weight: 500;
     position: relative;
     text-transform: uppercase;
-    right: 145px;
+    margin-left: -13%;
 }
 
 .footer-col-1 h4 {
-  left: 110%;
+  left: 100%;
   font-size: 22px;
   color: white;
   margin-bottom: 20px;
@@ -60,8 +55,8 @@ footer {
 }
 
 .copyright h2 {
-  margin-left: 45px ;
-  font-size: 16px;
+  margin-left: 95px ;
+  font-size: 13px;
   color: white;
   position: relative;
 }
@@ -81,12 +76,13 @@ footer {
 .footer-col ul li {
   list-style: none;
   margin: 15px;
-  margin-left: -60%;
+  margin-left: -30%;
 }
 
 .footer-col-1 ul li {
-  margin: 10px 0;
-  margin-left: 110%;
+  list-style: none;
+  margin: 15px ;
+  margin-left: 100%;
 }
 
 

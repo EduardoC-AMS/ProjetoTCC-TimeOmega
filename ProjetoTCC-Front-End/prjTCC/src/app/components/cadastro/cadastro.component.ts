@@ -15,6 +15,5 @@ export class CadastroComponent implements OnInit {
 
   login(){
     this.route.navigate(["/login"])
-
   }
 }

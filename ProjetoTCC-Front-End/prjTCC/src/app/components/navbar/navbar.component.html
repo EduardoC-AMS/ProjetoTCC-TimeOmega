@@ -8,8 +8,9 @@
     <title>Navbar</title>
   </head>
   <body>
+
       <nav>
-        <a class="logo" href="/">Combo</a>
+        <a class="logo" href="">Combo</a>
 	    	<div class="search-box">
             <input class="search-textbox" type="text" name="" placeholder="Faça sua Busca...">
             <a class="search-button" href="#">
@@ -17,41 +18,51 @@
             </a>
         </div>
         <ul class="nav-list">
-          <li><a href="">Início</a></li>
+          <li><a class="text" href="">Início</a></li>
           <li>
             <div ngbDropdown class="d-inline-block">
               <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>Categorias</button>
               <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-                <button ngbDropdownItem>Teste-1</button>
-                <button ngbDropdownItem>Teste-2</button>
-                <button ngbDropdownItem>Teste-3</button>
-                <button ngbDropdownItem>Teste-4</button>
-                <button ngbDropdownItem>Teste-5</button>
-                <button ngbDropdownItem>Teste-6</button>
-                <button ngbDropdownItem>Teste-7</button>
-                <button ngbDropdownItem>Teste-8</button>
-                <button ngbDropdownItem>Teste-9</button>
+                <button ngbDropdownItem> Computadores </button>
+                <hr>
+                <button ngbDropdownItem> Notebook </button>
+                <hr>
+                <button ngbDropdownItem> Periferícos </button>
+                <hr>
+                <button ngbDropdownItem> Acessórios </button>
+                <hr>
+                <button ngbDropdownItem> SSD / HD / RAM </button>
+                <hr>
+                <button ngbDropdownItem> Placa Mãe </button>
+                <hr>
+                <button ngbDropdownItem> Refrigeração </button>
+                <hr>
+                <button ngbDropdownItem> Fontes </button>
+                <hr>
+                <button ngbDropdownItem> Processadores </button>
+                <hr>
+                <button ngbDropdownItem> Placa de Vídeo </button>
+                <hr>
+                <button ngbDropdownItem> Outros </button>
+                <hr>
               </div>
             </div>
           </li>
-          <li><a href="#">Promoções</a></li>
-          <li><a (click)="sac()"><div class="sac">Atendimento(SAC)</div></a></li>
+          <li><a routerLink="/#" routerLinkActive="selected">Promoções</a></li>
+          <li><a routerLink="/sac" routerLinkActive="selected"><div class="sac">Atendimento(SAC)</div></a></li>
         </ul>
 
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
 
-    <a class="carrinho" href="#">
+
+    <a class="carrinho" routerLink="/#" routerLinkActive="selected">
       <i class="fa-solid fa-cart-shopping"> Carrinho</i>
     </a>
 
 		<a class="User">
-			<i class="fa-regular fa-circle-user"(click)="login()"> <div class="button">Entrar/Logar</div></i>
+			<i class="fa-regular fa-circle-user"routerLink="/login" routerLinkActive="selected"> <div class="button">Entrar/Logar</div></i>
 		</a>
       </nav>
+
   </body>
 </html>
 

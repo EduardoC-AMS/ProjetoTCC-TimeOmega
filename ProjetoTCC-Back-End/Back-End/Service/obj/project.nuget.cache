@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9JjAdote7njYeVy0tKAZJt0gVdmgUJ5P+haTymPtUNTZSBK6xlFW97fKMGVJL8F80MrL7krdSm3iMZbkpaaNhA==",
+  "dgSpecHash": "d0ldoxPLT/ChC727KnO0qp/b1a3wyd4kwNFuZ6lHPQuJod8rG+SJdyzXgsN5lnJ/3l1XpUcoszeNUIkkRfV+Cw==",
   "success": true,
-  "projectFilePath": "E:\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
+  "projectFilePath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Programmers\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

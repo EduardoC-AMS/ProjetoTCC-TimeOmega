@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+      "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+      "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-      "outputPath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
+      "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"

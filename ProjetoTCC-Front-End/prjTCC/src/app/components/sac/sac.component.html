@@ -1,20 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sac.component.css">
-    <title>Atendimento (SAC)</title>
-</head>
 <body>
-    <div>
-        <h1>Por Favor!</h1>
-        <h2>Envie-nos um E-mail com o assunto a ser conversado</h2>
-        <h2>E-mail: timeomegatcc@gmail.com</h2>
-        <br><br>
-        <a href="#"><button>Voltar</button></a>
-    </div>
-</body>
-</html>
+  <div class="container-login">
+
+      <div class="content-box">
+          <div class="form-box">
+              <h2> <a class="text" routerLink="/" routerLinkActive="selected">Loja Combo</a></h2>
+              <h2>Atendimento SAC</h2>
+              <form
+              action="https://formsubmit.co/timeomegaams@gmail.com"
+              method="POST"
+              class="form"
+              >
+                  <div class="input-box">
+                      <span>Nome</span>
+                      <label for="name"></label>
+                      <input type="text" name="name" id="name" required />
+                  </div>
+
+                  <div class="input-box">
+                      <span>E-mail</span>
+                      <label for="email"></label>
+                      <input type="email" name="email" id="email" required />
+                 </div>
+
+                 <span>Qual seu Problema?</span>
+                 <br>
+                 <textarea name="message" id="message" required></textarea>
+                 <input type="hidden" name="_captcha" value="false" />
+                 <input
+                   type="hidden"
+                   name="_next"
+                   value="http://127.0.0.1:4200/"
+                 />
+
+              <div class="input-box">
+                  <input type="submit" value="Enviar">
+              </div>
+               </form>
+          </div>
+      </div>
+  </div>
+  </body>
 

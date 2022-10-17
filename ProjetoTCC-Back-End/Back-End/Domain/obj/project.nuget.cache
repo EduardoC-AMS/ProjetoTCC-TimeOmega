@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PabUn/pCEo/BlAYg1s8oSQScsHqLEjaWyHI/SEMh1s3acfB/VCpWb6T0v7Rq+k1uH5XImQKsVmbD/lBmz+xGDw==",
+  "dgSpecHash": "heSASKNGHZCZmUiGrFPpokG4wt2tF3ZafxcwApRmRc42jweaBv/fMzL4o2i0KGH6SMpX3/tPb7n14OPp+E844A==",
   "success": true,
-  "projectFilePath": "E:\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

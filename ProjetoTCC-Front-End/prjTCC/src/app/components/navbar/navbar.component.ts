@@ -20,6 +20,4 @@ export class NavbarComponent implements OnInit {
   sac(){
     this.route.navigate(["/sac"])
   }
-
-  
 }
