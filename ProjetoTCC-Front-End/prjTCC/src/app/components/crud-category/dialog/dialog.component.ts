@@ -1,6 +1,6 @@
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { Component, OnInit } from '@angular/core';
-import { MatDialogRef } from '@angular/material/dialog';
+import { Component, Inject, OnInit } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ApiService } from 'src/app/services/api.service';
 @Component({
   selector: 'app-dialog',
@@ -9,29 +9,59 @@ import { ApiService } from 'src/app/services/api.service';
 })
 export class DialogComponent implements OnInit{
   categoryForm !: FormGroup;
-  constructor(private formBuilder : FormBuilder, private api : ApiService, private dialogRef : MatDialogRef<DialogComponent> ) { }
+  actionBtn : string = "Salvar"
+  constructor(private formBuilder : FormBuilder,
+    private api : ApiService,
+    @Inject(MAT_DIALOG_DATA) public editData : any,
+    private dialogRef : MatDialogRef<DialogComponent> ) { }
 
   ngOnInit(): void {
     this.categoryForm = this.formBuilder.group({
-      categoryName : ['',Validators.required],
-    })
+      description : ['' ,Validators.required],
+    });
+    console.log(this.editData);
+    if(this.editData){
+      this.actionBtn = "Atualizar";
+      this.categoryForm.controls['description'].setValue(this.editData.description);
+    }
   }
 
   AddCategory(){
-    if(this.categoryForm.valid){
+    if(!this.editData){
+      if(this.categoryForm.valid){
       this.api.postCategory(this.categoryForm.value)
       .subscribe({
         next:(res)=>{
           alert("Categoria adicionada com sucesso");
           this.categoryForm.reset();
           this.dialogRef.close('Salvo');
+          this.getAllCategorys();
         },
         error:()=>{
-          alert("Erro não foi possivel adicionar")
+          alert("Erro não foi possivel adicionar a categoria")
         }
       })
+     }
+    } else{
+      this.updateCategoy()
+
     }
   }
+
+  updateCategoy(){
+    this.api.putCategory(this.categoryForm.value,this.editData.id)
+    .subscribe({
+      next:(res)=>{
+        alert("Categoria atualizada com sucesso");
+        this.categoryForm.reset();
+        this.dialogRef.close('Atualizado');
+      },
+      error:()=>{
+        alert("Erro não foi possivel atualizar a categoria")
+      }
+    })
+  }
+
 
   getAllCategorys(){
     this.api.getCategory()
@@ -44,26 +74,4 @@ export class DialogComponent implements OnInit{
       }
     })
   }
-
-  //postCategories() {
-    //var category = {description: this.desc} ;
-
-      //this.http.post('https://localhost:7098/api/Category', category)
-      //.subscribe(
-       // resultado => {
-          //console.log(resultado);
-         // this.getCategories();
-         // this.desc='';
-
-
-        //},
-        //erro => {
-          //if(erro.status == 400) {
-            //console.log(erro);
-         //}
-       //}
-      //);
-  //}
 }
-
-

@@ -3,11 +3,11 @@
   <form [formGroup]="categoryForm">
     <mat-form-field appearance="outline">
       <mat-label>Nome da categoria</mat-label>
-      <input formControlName="categoryName" matInput placeholder="Name" />
+      <input formControlName="description" matInput placeholder="Name" />
     </mat-form-field>
   </form>
 </div>
 <div mat-dialog-action [align]="'end'">
 <button mat-raised-button color="warn" mat-dialog-close>Fechar</button>
-<button style="margin-left: 8px" mat-raised-button color="primary" (click)="AddCategory()">Salvar</button>
+<button style="margin-left: 8px" mat-raised-button color="primary" (click)="AddCategory()">{{actionBtn}}</button>
 </div>

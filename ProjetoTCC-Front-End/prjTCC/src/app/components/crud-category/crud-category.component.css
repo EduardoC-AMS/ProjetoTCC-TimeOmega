@@ -16,3 +16,21 @@
   margin-top: 5px;
   margin-left: 91%;
 }
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+}
+
+.con {
+ max-width: 1200px;
+ margin: 0 auto;
+}

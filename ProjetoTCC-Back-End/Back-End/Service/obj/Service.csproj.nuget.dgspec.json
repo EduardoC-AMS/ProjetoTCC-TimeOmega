@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {}
+    "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {}
   },
   "projects": {
-    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+    "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+        "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
+        "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,34 +54,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
+    "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
+        "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
         "projectName": "InfraData",
-        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\obj\\",
+        "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
+              "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
               }
             }
           }
@@ -138,37 +142,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
+    "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
+        "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-        "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\obj\\",
+        "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+        "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
+              "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj": {
+                "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj"
               },
-              "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
-                "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
+              "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj": {
+                "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\InfraData\\InfraData.csproj"
               }
             }
           }
@@ -207,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

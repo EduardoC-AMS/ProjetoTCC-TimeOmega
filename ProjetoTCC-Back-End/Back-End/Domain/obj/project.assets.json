@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Programmers\\.nuget\\packages\\": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+      "projectUniqueName": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-      "outputPath": "E:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
+      "projectPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "F:\\TimeOmega-ProjetoTCC\\ProjetoTCC-Back-End\\Back-End\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -58,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
